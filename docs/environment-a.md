@@ -32,9 +32,12 @@ Run `run1-20260929-1257`: 1,128 browser logins, 15 failed. Single run per
 cell. Full tables, confidence intervals and the convergence view are in
 [`results/run1-20260929-1257/analysis.md`](../results/run1-20260929-1257/analysis.md).
 
-Login POST time in milliseconds. Sequential logins, steady state, 17 logins
-per row (first successful login and the two after it are excluded as
-warm-up). Failed logins are included in the percentiles.
+Login POST time in milliseconds. Sequential logins, steady state: the first
+successful login and the two after it are excluded as warm-up, which leaves
+17 logins per row, and 15 for the 150-group user at 500 mappers with the
+option off, whose first two logins failed. Failed logins inside the steady
+state are included in the percentiles; failures before it are in the
+convergence table.
 
 | Mappers | Toggle | User | Median | 95% CI of median | p95 | Max | Over 5 s | Failed |
 |---|---|---|---|---|---|---|---|---|

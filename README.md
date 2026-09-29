@@ -9,7 +9,7 @@ and tuning tests still to come.
 
 ## The finding
 
-> With 1,500 mappers, turning the option on makes **every login 3 to 5 times
+> With 1,500 mappers, turning the option on makes **every login 3 to 6 times
 > slower**, because the gateway checks each mapper's role against the
 > database, one mapper at a time: 3,000 extra statements per login. Better hardware shrinks the
 > delay but does not remove it. Logins that pass 10 seconds are cut off, which
@@ -116,6 +116,8 @@ CPU and memory for every test and component:
   teams and roles inline and does not fit in 10 seconds.
 - **The directory server capped logins at 5 per second** on 4 vCPU, whatever
   the number of gateway pods. On 16 vCPU it serves four times as many binds.
+  Capacity follows physical cores: 7.6 binds per second per core on both
+  sizes, and a core's second hyperthread adds nothing.
 
 ## 5. The gateway cannot scale itself
 
@@ -151,6 +153,7 @@ Results are only meaningful together with the infrastructure they ran on.
 | Where the lookups come from: captured as stack traces | The two environments differ in more than hardware: gateway pods, user pool, LDAP limits |
 | The slowdown: reproduced in 4 runs, drift-checked in both environments | 50 browsers at once could not be measured: the load generator was the limit |
 | The 10 s cut-off: seen in gateway logs and traced to its setting | Environment A database and directory hosts were not monitored |
+| Directory server capacity: 15 and 60 binds per second, measured 2 and 3 times | Which gateway pod served a browser login was not recorded. The two groups of logins are assigned to the two pods from measurements made inside each pod |
 | Browser and in-gateway measurements agree within a few percent | Time in "gateway code" was not profiled further |
 
 All mappers in the test are team mappers granting one role. With several roles
