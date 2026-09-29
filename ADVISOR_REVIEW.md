@@ -105,7 +105,7 @@ the framework re-does the deny work each login. If `has_permission=False`
 recording is idempotent (update_or_create-style no-op), ON-steady collapses to
 OFF-steady plus a reconcile check, and the client cannot distinguish "cheap
 because idempotent" from "cheap because fast" without server-side counters.
-That is exactly the mechanism the customer is asking about, so server-side
+That is exactly the mechanism in question, so server-side
 instrumentation (section 4, item 4) is not optional.
 
 The real problems with the ordering:
@@ -124,7 +124,7 @@ The real problems with the ordering:
 5. The toggle flip itself (bulk PATCH of 500→1500 maps) is untimed and its
    partial-failure behavior unchecked (cmd_toggle prints failures and
    continues). If flipping 1500 maps is slow or leaves stragglers, that is
-   itself a customer-visible cost of the toggle.
+   itself a user-visible cost of the toggle.
 
 Verdict: the design measures steady-state (both states), one-time creation
 (OFF, at first exposure), and the transition (ON `first`) — but only if each
