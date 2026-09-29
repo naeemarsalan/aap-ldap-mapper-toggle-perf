@@ -1,0 +1,97 @@
+127.0.0.1 - - [29/Sep/2026:15:47:06 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (8.769) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "a67e7843-00dd-4a98-89fc-96c42c53e75a"
+127.0.0.1 - - [29/Sep/2026:15:47:06 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (8.915) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "889f6f4d-e120-4d5d-ac62-b20111f384ea"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:15:47:14 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (9.978) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "29634983-1415-474d-9392-552a476db450"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Tue Sep 29 15:47:15 2026 - *** HARAKIRI ON WORKER 3 (pid: 58317, try: 1, graceful: yes) ***
+Tue Sep 29 15:47:15 2026 - HARAKIRI !!! worker 3 status !!!
+Tue Sep 29 15:47:15 2026 - HARAKIRI [core 0] 127.0.0.1 - POST /api/gateway/v1/login/ since 1790696825
+Tue Sep 29 15:47:15 2026 - HARAKIRI !!! end of worker 3 status !!!
+Tue Sep 29 15:47:15 2026 - HARAKIRI: graceful termination attempt on worker 3 with signal 15. Next harakiri: 1790696837
+Tue Sep 29 15:47:15 2026 - HARAKIRI triggered by worker 3 core 0 !!!
+2026/09/29 15:47:15 [error] 20#20: *307631 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "POST /api/gateway/v1/login/ HTTP/1.1", upstream: "uwsgi://127.0.0.1:8050", host: "aap.lab.example", referrer: "https://aap.lab.example/"
+127.0.0.1 - - [29/Sep/2026:15:47:15 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 503 120 (9.646) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "02c52412-5ffa-451a-b2fa-1374919f6233"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:15:47:15 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (9.590) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "c8902af9-3dc9-4b19-9884-bb134b75cc8e"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Tue Sep 29 15:47:17 2026 - *** HARAKIRI ON WORKER 1 (pid: 58316, try: 1, graceful: yes) ***
+Tue Sep 29 15:47:17 2026 - HARAKIRI !!! worker 1 status !!!
+Tue Sep 29 15:47:17 2026 - HARAKIRI [core 0] 127.0.0.1 - POST /api/gateway/v1/login/ since 1790696827
+Tue Sep 29 15:47:17 2026 - HARAKIRI !!! end of worker 1 status !!!
+Tue Sep 29 15:47:17 2026 - HARAKIRI: graceful termination attempt on worker 1 with signal 15. Next harakiri: 1790696839
+Tue Sep 29 15:47:17 2026 - HARAKIRI triggered by worker 1 core 0 !!!
+2026/09/29 15:47:17 [error] 7#7: *308056 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "POST /api/gateway/v1/login/ HTTP/1.1", upstream: "uwsgi://127.0.0.1:8050", host: "aap.lab.example", referrer: "https://aap.lab.example/"
+127.0.0.1 - - [29/Sep/2026:15:47:17 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 503 120 (11.142) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "fa3fade6-c10d-46ab-9223-c5321283081c"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):

@@ -1,0 +1,1560 @@
+127.0.0.1 - - [29/Sep/2026:15:57:52 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.426) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "0dd57927-0898-434f-b243-fa216c872aa9"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:15:57:57 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.248) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "1b5579a9-7013-40fa-ae6b-b1afae3af1b6"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:15:58:02 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.420) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "7cda339d-549e-4297-8cc5-d3a4b11bb892"
+127.0.0.1 - - [29/Sep/2026:15:58:09 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.787) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "094f7ccf-671d-4d50-aed3-c13ce39e9a7f"
+Tue Sep 29 15:58:23 2026 - *** HARAKIRI ON WORKER 1 (pid: 58345, try: 1, graceful: yes) ***
+Tue Sep 29 15:58:23 2026 - HARAKIRI !!! worker 1 status !!!
+Tue Sep 29 15:58:23 2026 - HARAKIRI [core 0] 127.0.0.1 - POST /api/gateway/v1/login/ since 1790697493
+Tue Sep 29 15:58:23 2026 - HARAKIRI !!! end of worker 1 status !!!
+Tue Sep 29 15:58:23 2026 - HARAKIRI: graceful termination attempt on worker 1 with signal 15. Next harakiri: 1790697505
+Tue Sep 29 15:58:23 2026 - HARAKIRI triggered by worker 1 core 0 !!!
+2026/09/29 15:58:23 [error] 16#16: *310126 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "POST /api/gateway/v1/login/ HTTP/1.1", upstream: "uwsgi://127.0.0.1:8050", host: "aap.lab.example", referrer: "https://aap.lab.example/"
+127.0.0.1 - - [29/Sep/2026:15:58:23 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 503 120 (10.516) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "3bb6634d-932f-4f79-8fef-f21accef0244"
+Tue Sep 29 15:58:37 2026 - *** HARAKIRI ON WORKER 3 (pid: 58344, try: 1, graceful: yes) ***
+Tue Sep 29 15:58:37 2026 - HARAKIRI !!! worker 3 status !!!
+Tue Sep 29 15:58:37 2026 - HARAKIRI [core 0] 127.0.0.1 - POST /api/gateway/v1/login/ since 1790697507
+Tue Sep 29 15:58:37 2026 - HARAKIRI !!! end of worker 3 status !!!
+Tue Sep 29 15:58:37 2026 - HARAKIRI: graceful termination attempt on worker 3 with signal 15. Next harakiri: 1790697519
+Tue Sep 29 15:58:37 2026 - HARAKIRI triggered by worker 3 core 0 !!!
+2026/09/29 15:58:37 [error] 9#9: *311173 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "POST /api/gateway/v1/login/ HTTP/1.1", upstream: "uwsgi://127.0.0.1:8050", host: "aap.lab.example", referrer: "https://aap.lab.example/"
+127.0.0.1 - - [29/Sep/2026:15:58:37 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 503 120 (10.101) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "27c488ac-7fef-484b-817b-143fc4a43e64"
+Traceback (most recent call last):
+Tue Sep 29 15:58:51 2026 - *** HARAKIRI ON WORKER 4 (pid: 58319, try: 1, graceful: yes) ***
+Tue Sep 29 15:58:51 2026 - HARAKIRI !!! worker 4 status !!!
+Tue Sep 29 15:58:51 2026 - HARAKIRI [core 0] 127.0.0.1 - POST /api/gateway/v1/login/ since 1790697521
+Tue Sep 29 15:58:51 2026 - HARAKIRI !!! end of worker 4 status !!!
+Tue Sep 29 15:58:51 2026 - HARAKIRI: graceful termination attempt on worker 4 with signal 15. Next harakiri: 1790697533
+Tue Sep 29 15:58:51 2026 - HARAKIRI triggered by worker 4 core 0 !!!
+2026/09/29 15:58:51 [error] 14#14: *311341 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "POST /api/gateway/v1/login/ HTTP/1.1", upstream: "uwsgi://127.0.0.1:8050", host: "aap.lab.example", referrer: "https://aap.lab.example/"
+127.0.0.1 - - [29/Sep/2026:15:58:51 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 503 120 (10.352) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "d721312f-2968-4e52-bdac-26223b2fd9e6"
+Tue Sep 29 15:59:05 2026 - *** HARAKIRI ON WORKER 5 (pid: 58315, try: 1, graceful: yes) ***
+Tue Sep 29 15:59:05 2026 - HARAKIRI !!! worker 5 status !!!
+Tue Sep 29 15:59:05 2026 - HARAKIRI [core 0] 127.0.0.1 - POST /api/gateway/v1/login/ since 1790697535
+Tue Sep 29 15:59:05 2026 - HARAKIRI !!! end of worker 5 status !!!
+Tue Sep 29 15:59:05 2026 - HARAKIRI: graceful termination attempt on worker 5 with signal 15. Next harakiri: 1790697547
+Tue Sep 29 15:59:05 2026 - HARAKIRI triggered by worker 5 core 0 !!!
+2026/09/29 15:59:05 [error] 12#12: *311771 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "POST /api/gateway/v1/login/ HTTP/1.1", upstream: "uwsgi://127.0.0.1:8050", host: "aap.lab.example", referrer: "https://aap.lab.example/"
+127.0.0.1 - - [29/Sep/2026:15:59:05 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 503 120 (10.589) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "98145bd2-4341-48a5-b6bb-b4685a7dce92"
+127.0.0.1 - - [29/Sep/2026:15:59:16 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (6.807) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "82c2e295-684d-4181-b40e-8a37894fa3a4"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:15:59:22 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.490) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "f9061a3a-aa37-46b0-9cbb-c78eb5c64fd8"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:15:59:29 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.939) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "d366b100-b620-4757-9c41-82beb2fcd340"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:15:59:34 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.434) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "88d7f7c2-6ac8-420c-8420-56507d9c1916"
+127.0.0.1 - - [29/Sep/2026:15:59:39 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.458) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "816b114c-c6e6-43e2-80ff-4d357bb5834c"
+127.0.0.1 - - [29/Sep/2026:15:59:45 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.638) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "fff0c245-0bd8-41f3-b7d4-ed14fcc4d52f"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:15:59:50 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.346) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "cef9ed77-8915-469c-bf1d-2327c51a6a7d"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:15:59:56 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.282) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e81590b7-1a08-4d6a-bcd6-5e7df265f716"
+127.0.0.1 - - [29/Sep/2026:16:00:01 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.438) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e7cad448-0503-4162-87e2-342872f359b1"
+127.0.0.1 - - [29/Sep/2026:16:00:06 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.480) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e9e9804c-9f65-4814-a39b-6c14532ae38c"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:00:13 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.624) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "6728a3f9-1c51-402e-892b-b1323a3b783c"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:00:19 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.759) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "d7de8236-551a-426c-b3c1-17fcde499657"
+127.0.0.1 - - [29/Sep/2026:16:00:25 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.726) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "6b6213fa-7b93-4a87-a42d-a0ef05e1238c"
+127.0.0.1 - - [29/Sep/2026:16:00:29 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.463) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "ae40d5ea-a98f-4c5b-8800-d8d31cc657a5"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:00:36 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.270) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "88969e16-e846-4368-a4f9-f9575e36efcf"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:00:41 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.503) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "dad2c623-3d11-4eb9-b469-6beb559d8bd6"
+127.0.0.1 - - [29/Sep/2026:16:00:45 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.446) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "7c6a367f-960e-49e0-9d26-b54408f4eb04"
+127.0.0.1 - - [29/Sep/2026:16:00:51 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.420) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "12d8f512-0c3c-4de8-9af0-f46130a278de"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:00:57 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.206) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "4dcf2332-1708-444e-b649-36b114e16854"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:01:02 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.385) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "58a14cad-c657-46f2-b185-3bedcfd8f1ab"
+127.0.0.1 - - [29/Sep/2026:16:01:08 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.544) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "d7419a94-938f-4386-aa02-bc33a32f9e73"
+127.0.0.1 - - [29/Sep/2026:16:01:13 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.679) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "76866d60-3e40-4e3e-a23c-d983d59a4869"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:01:20 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.531) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "d40278e9-581e-4a90-b4e4-4765579fb734"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:01:25 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.277) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "4b394186-a104-4c2b-9972-4c0472182485"
+127.0.0.1 - - [29/Sep/2026:16:01:31 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.420) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "31d3e9c2-1f3f-4887-9b57-f9ae6f1bec2e"
+127.0.0.1 - - [29/Sep/2026:16:01:37 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.338) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "ce45f678-5c4a-4168-a419-a4f88b35402b"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:01:43 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.414) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "79e582fd-97f3-4faf-be2f-59dab9168429"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:01:48 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.350) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "3571c55b-e592-48dc-bdec-632559fcdb00"
+127.0.0.1 - - [29/Sep/2026:16:01:53 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.382) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "2845059f-9eef-4110-ac26-242704f2ca46"
+127.0.0.1 - - [29/Sep/2026:16:01:59 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.332) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "ed29454c-93d2-4cd8-8991-ddbb01f66f35"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:02:05 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.089) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "0e4e0ed7-5501-4612-9756-3b513755a5ed"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:02:09 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.291) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "76f35046-0c8f-4a8f-b0e0-186acfa16632"
+127.0.0.1 - - [29/Sep/2026:16:02:14 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.492) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "31cfdc4b-8bdf-464b-9c54-1c077f71b446"
+127.0.0.1 - - [29/Sep/2026:16:02:21 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.600) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "d7120169-0abc-4bf4-bacb-4a716a3604d5"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:02:27 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.216) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "125acfa3-66cd-4686-9a79-b28194ba91d9"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:02:31 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.305) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "1158af58-b060-4955-a828-0e5eeaca9786"
+127.0.0.1 - - [29/Sep/2026:16:02:37 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.380) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "83d35bc7-dd07-422b-8828-02c450fef61b"
+127.0.0.1 - - [29/Sep/2026:16:02:42 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.413) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "d83e1777-2364-45d5-9863-1f5af6443196"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:02:49 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (3.045) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "3a3334f3-76f1-4b9b-a2c9-d7ae1ee9d180"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:02:54 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.279) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "5e26db19-8790-422e-80fa-8b6d1f07b5d5"
+127.0.0.1 - - [29/Sep/2026:16:02:59 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.517) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "870fe2c2-e061-44fb-9bef-9954681c897a"
+127.0.0.1 - - [29/Sep/2026:16:03:04 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.477) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "f89e592e-f8be-4365-a269-84fd98ac7857"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:03:10 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.293) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "94462447-9863-48af-956b-7fb740ecdcdc"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:03:15 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.353) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "04446703-9389-4f57-b1eb-1c439eacaf24"
+127.0.0.1 - - [29/Sep/2026:16:03:19 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.415) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "bf082822-dbe0-4580-b6d4-a4227fc9d252"
+127.0.0.1 - - [29/Sep/2026:16:03:24 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.454) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "c3611f87-d77a-4c0e-bf23-c4bb9b8095cd"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:03:31 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.138) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "f4861286-d18f-45a6-8971-1efaa44a1769"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:03:35 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.351) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "dd920613-2d00-44dc-bbeb-11bc3178a3bd"
+127.0.0.1 - - [29/Sep/2026:16:03:40 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.530) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "03b3382a-70d0-49ca-9f00-f7725dcfe177"
+127.0.0.1 - - [29/Sep/2026:16:03:46 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.387) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "075075bf-979a-4278-bc2c-8e1817b9570e"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:03:53 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.257) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "a3976966-7f89-4801-854c-e93e83d9a3b1"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:03:57 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.432) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "8db2a50e-bca1-4e8b-beb2-ba4102296cec"
+127.0.0.1 - - [29/Sep/2026:16:04:03 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.471) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "0fcd9006-1e7f-4727-a183-056d2343081a"
+127.0.0.1 - - [29/Sep/2026:16:04:08 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.265) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "b3de1d60-d8a0-4eee-bd2c-61e1aee0f1e0"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:04:14 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.208) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "c9b65df8-661c-421e-b0a3-2031744ba511"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:04:18 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.265) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "af15537d-1c39-40b9-b414-fc7707a1bc41"
+127.0.0.1 - - [29/Sep/2026:16:04:22 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.488) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "1505e05d-1aac-4d88-89bc-c57fda1e44a8"
+127.0.0.1 - - [29/Sep/2026:16:04:28 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.321) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "04a7855a-fc24-40f2-901e-8e15e9bf8ec2"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:04:33 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.322) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "0ca501e6-052d-4bae-bc00-ce069fe1da20"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:04:39 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.394) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "8fb5d521-859e-4476-a073-2df0f7891a8c"
+127.0.0.1 - - [29/Sep/2026:16:04:44 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.430) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "17621db5-ab89-429e-9818-09702d746658"
+127.0.0.1 - - [29/Sep/2026:16:04:50 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.491) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "fe98b268-6bc1-4009-9fc3-6c352dd53926"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:04:55 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.241) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "88bb478d-9371-4e29-b8e3-76435d395d82"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:05:00 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.239) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "a784b3a2-bc6e-40fb-a158-0470995e1cc5"
+127.0.0.1 - - [29/Sep/2026:16:05:05 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.445) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "3c762b49-94ce-426e-9f53-4fc813486549"
+127.0.0.1 - - [29/Sep/2026:16:05:11 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.472) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "f0db4123-7d79-4ab8-aadb-b8d21297bf87"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:05:16 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.555) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "090b9ac7-7576-4bf6-a067-a5ca9786cfdc"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:05:21 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.316) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "1e3aad97-1f69-4e7d-8fa4-20f3f13c9223"
+127.0.0.1 - - [29/Sep/2026:16:05:26 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.389) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "827352d8-3f14-442a-b496-dbd9f9cdb75d"
+127.0.0.1 - - [29/Sep/2026:16:05:31 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.296) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "3b64a30c-736b-4f9d-9a22-b3d280774de7"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:05:37 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.253) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "11a9b80f-b88d-425a-82ae-4c629242c3d5"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:05:42 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.324) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "b1b86f1e-48db-437b-9008-27b4b36d730a"
+127.0.0.1 - - [29/Sep/2026:16:05:47 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.424) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "c2634287-d5cb-44b1-98d0-31be05681be6"
+127.0.0.1 - - [29/Sep/2026:16:05:52 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.395) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "5ad5b3bf-66e3-4d7a-8b64-a4091d32a7e1"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:05:58 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.285) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "b2c3beee-861f-4e87-9286-6fe175d6e0ac"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:06:03 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.469) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "54d50996-0f39-43b6-8cab-6ef57edf88d0"
+127.0.0.1 - - [29/Sep/2026:16:06:08 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.583) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "f713b66e-02d3-49ef-9caf-6f2b8b38ae98"
+127.0.0.1 - - [29/Sep/2026:16:06:13 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.333) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "f25e912a-a3f7-41ac-ac25-4948d7609413"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:06:20 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.629) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "ab4218fd-5bf1-4a0a-99e3-f9624b67c5c5"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:06:25 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.231) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "db7ee76f-bd42-43d6-abc0-ed907346c0de"
+127.0.0.1 - - [29/Sep/2026:16:06:30 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.372) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "9f4d312e-bff4-4eda-a96a-051d9a4927c2"
+127.0.0.1 - - [29/Sep/2026:16:06:36 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.408) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "c5d3f8b8-06a1-4c59-98d5-c5f3257bae87"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:06:41 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.723) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "a4384f20-c9ef-4b99-8779-cc862c996f1c"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:06:47 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.620) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "1013d05e-fb85-4009-84a5-0a139e37825e"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:06:52 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.579) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "c5dd9e77-f4a4-4da9-967e-f1c3027f1082"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:06:57 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.413) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "dfcfdb09-4b80-4a89-8d0d-00fbc44b415c"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:02 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.556) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "14f3df2f-357b-4876-a9ad-00bc218ccd7a"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:07 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.730) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "6e02ef7d-02dc-45e3-825c-40f1ecfc6986"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:12 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.602) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e7427355-2353-47a8-8857-51e497b40b28"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:17 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.592) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "78f92e47-7651-4671-aa59-e34db9c2c1b6"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:22 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.480) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e3581d02-e14f-4d37-8b9a-ab129bb0a214"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:28 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.655) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "2744526b-6c63-45cb-96e8-50be09f36ab4"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:32 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.480) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "c9d9c3b8-5894-4a8f-b48f-8882c6cd804c"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:36 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.589) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "1cce1628-2bfc-4077-a19b-65f383f366c9"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:41 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.608) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "3090158e-a444-4b84-a997-a939fc7cd37f"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:46 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.563) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "5c17d9a0-ff5f-42c5-80f8-fc18b2816af7"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:52 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.580) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "165ea47f-164f-4747-bc95-556f0332aaf6"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:07:57 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.456) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "8a90cb91-8d88-4aa2-bb5f-2ff6c91aea41"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:02 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.558) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "f9f99f7c-1bc0-45eb-9517-461581e84f63"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:06 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.493) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "f88fd216-52a9-4f50-b73c-e431dc51f838"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:13 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.413) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "dd4da7c2-cfe0-428d-9be6-7fd05416a56a"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:17 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.597) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "7d16c175-45de-47b9-8a68-1e7c92f6b206"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:22 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.487) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "f6c239dc-3e83-40e5-a42b-f38f190b973b"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:26 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.418) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "0cabebf9-db8f-4948-a545-0b5ef205349e"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:31 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.539) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "a910cd93-37e3-49e4-bf20-88b20b6010d0"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:37 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.535) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "9986d954-098f-4959-97ae-3676ebc44b76"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:44 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.334) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "c6270cc6-4a5a-4dbc-8dae-26c7b08d1e5e"
+127.0.0.1 - - [29/Sep/2026:16:08:44 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.524) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "626afb7e-ad89-4710-a78d-7e752a4135d7"
+127.0.0.1 - - [29/Sep/2026:16:08:44 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.525) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "6f8a67ca-2ba1-489c-aa05-793a7e9238e2"
+127.0.0.1 - - [29/Sep/2026:16:08:44 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.572) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "c1f8284d-faf7-4653-9eda-03527c3c88d0"
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:45 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.960) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "64c2a58a-0ba3-4718-b925-d99fca4d5a6d"
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:46 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (4.115) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "7257e2ee-5f80-46d8-9d39-cc17ddddf25b"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:46 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.140) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "f31d8aee-b357-409c-984e-a16425e1e451"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:47 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.533) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "4da10228-4957-444a-9c26-136bfbda7b20"
+127.0.0.1 - - [29/Sep/2026:16:08:47 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.572) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "3c04b4a0-86cb-4146-8d6c-85fc7fef00dc"
+127.0.0.1 - - [29/Sep/2026:16:08:47 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.573) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "ae0a9d98-be4b-4e3f-9caf-9c2f207162fa"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:53 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.992) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "4c5e3511-e90a-4080-976d-a121a3121db3"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:53 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.045) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "1278823d-ca6c-45e1-ac75-ad27709aed69"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:53 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.811) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "008fb75b-7f6a-43aa-88c2-02aa1bff52db"
+127.0.0.1 - - [29/Sep/2026:16:08:53 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.752) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "eebdbc03-c372-45fd-80d7-7fd90e433ced"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:55 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.944) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "491d6b26-f14f-43cd-8679-05278f6a56fc"
+127.0.0.1 - - [29/Sep/2026:16:08:55 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.034) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "b8f3fc05-7caf-44fd-abfe-7431d225fc65"
+127.0.0.1 - - [29/Sep/2026:16:08:55 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.066) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "dd83960f-41aa-4fe7-9588-7e27a9dd6da3"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:56 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.124) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "bb1d7a6a-876a-4d9b-9573-d799c6adead4"
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:56 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.164) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "521e8fc1-bcd9-4f8d-b009-654870ca5f01"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:57 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.902) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "344863a0-193e-412d-9d64-1fff6a7596d9"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:08:59 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.073) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e80a8663-0c3e-442b-b477-5b84f2240e8d"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:00 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.281) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "6485ddd2-3271-40da-922c-00ab4d4aa771"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:00 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.223) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "b5e6d7a2-c048-434d-82e7-219deb987b05"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:01 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.079) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "7a37a340-bd7b-46ea-a017-bcc4a4886d2a"
+127.0.0.1 - - [29/Sep/2026:16:09:02 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.810) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "a05f0880-7174-4e74-bdd2-2efe4dc78574"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:02 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.062) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "ea074bbd-0b16-4ffc-8546-febf962b534e"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:03 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.040) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e99acf9f-a5e1-4dd9-913f-0fd5ff9a3af5"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:04 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.984) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "efa65fed-f171-464d-9928-839fe91a30af"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:04 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.210) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "82947ee5-a600-4b29-9197-7f292e024ded"
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:04 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.326) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "168579b6-a146-4a8c-a3b5-8ce421cd2b9d"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:06 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.044) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "dcf98468-a42e-4321-99c8-cfbd103ebdaa"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:06 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.094) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "a2cb4df5-82b5-4a77-bbe0-d1eb69f21f0f"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:06 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.004) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "4461f9f7-d3e7-446a-b8c6-95379320a47a"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:08 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.523) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "b326036b-0a0e-4537-9b84-b5c5773689fb"
+127.0.0.1 - - [29/Sep/2026:16:09:08 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.116) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "0dde35b9-dd3f-4a96-a14d-0bf721f35952"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:09 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.210) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "c19f9dc4-1aa2-4ffc-b87c-cb20a08c4684"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:10 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.957) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "6a0ae885-2e34-42cf-8874-53b2c4aa61d4"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:11 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.468) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "36d86d10-50f1-400b-b8d8-777acc135e96"
+127.0.0.1 - - [29/Sep/2026:16:09:11 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.503) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "5eb0c394-75b2-4ff6-95c7-1beaabfc0c62"
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:11 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.363) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "ddfcb49f-8451-45b2-84e6-2deb2c962824"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:13 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.305) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "0646c29e-8d41-40d6-b9a2-34599d649ad4"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:14 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.570) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "d8035ed4-dcb0-4f7b-80ce-deac4af93a1a"
+127.0.0.1 - - [29/Sep/2026:16:09:14 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.311) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "bc5ac01b-c909-47bc-a665-e84a5ee43d9b"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:16 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.965) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "016c89c5-2dd3-48bc-9121-9299525c3570"
+127.0.0.1 - - [29/Sep/2026:16:09:16 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.061) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "00a39b51-451c-40a6-9113-d71f40bc3100"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:17 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.276) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "4f005ace-ccbb-42e1-b3c6-921db4141c0e"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:17 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.892) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "76c48102-7940-49ff-8a36-d9ee0a3a37f0"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:18 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.053) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "2a3d16df-f64e-4bf1-889d-3f8a5a8f9e59"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:18 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.278) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "3dfbe7ca-8815-4ad5-b655-ce742f882cb6"
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:18 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.403) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "930b3973-55b9-4b54-b6ae-6cd3e2420a45"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:21 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.356) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e0cd18bd-0011-4f28-9d17-0126eb2abc64"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:21 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.385) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "28ef4656-ee7a-442f-be88-061783e27139"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:22 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.655) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "739efa55-a826-473c-b2f6-2e465ddb608d"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:23 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.354) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "4c4c678f-d932-42ee-8be7-567266b015e8"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:23 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.136) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "634fbe1c-ba64-4f7b-a50b-629ded924262"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:24 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.882) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "49c2598f-5c23-478c-be05-4f5d52610a97"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:24 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.797) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "fa1a938f-4b63-4a84-b416-74acdde8c7b8"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:25 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.946) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "2dc721db-ca5f-4822-8303-7e046e704b7f"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:26 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.999) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "6549ddd9-576a-487f-b4c5-0b53748b40a7"
+127.0.0.1 - - [29/Sep/2026:16:09:26 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.123) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "b2b168e0-7559-43f9-bf1a-e29bd4cc1173"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:28 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.295) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "26373234-9bc3-4281-9db8-a42dc0d8cb65"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:28 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.417) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "45dcaec5-df8a-4b4c-814d-414d3bcb06d0"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:29 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.241) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "d7cf7476-ece3-4954-87fe-6caeeb7ae1ea"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:30 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.298) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "41bd5401-8749-45b6-84b8-de6c1ce9a34f"
+127.0.0.1 - - [29/Sep/2026:16:09:31 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.276) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "174eb7f0-c319-4759-8531-4e91a0c210bc"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:31 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.127) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "d466ef8b-3cb1-4985-8a63-5651682b0814"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:32 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.141) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "01a883e0-0fb0-4ff0-bfae-8b6bb7ec70e0"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:32 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.474) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e5d78048-91a9-47d5-a3de-39c007f82c7c"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:33 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.503) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "5efe37fc-09b3-438c-ad0b-b70bec77d552"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:33 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.359) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "463a2976-7f6f-4465-80a8-1621f616e61f"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:35 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.307) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "23281a46-1dba-41c3-a45c-cf95eb376cc4"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:35 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.207) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "bb7e76a7-c3c9-4e1f-a598-725e19a4ade2"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:37 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.471) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "a8c2f3cd-0c4c-433e-9b38-d2bbde4ac64a"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:38 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.345) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "b56b5e15-2488-400e-927d-c589c40a3630"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:39 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.453) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "8b6f6d5e-2361-4dcb-8ad5-337e88d89c1c"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:39 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.376) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e8aef078-d336-4c98-901d-178b91582bd3"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:39 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.891) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "468c5191-9f76-4bfc-a854-581bdb37456e"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:41 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.462) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "801d22d3-b477-4b30-8b25-40b47b038c79"
+127.0.0.1 - - [29/Sep/2026:16:09:41 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.487) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "bb24e4d3-8f95-4f11-8fd0-220381df0fdd"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:41 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.271) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "d0394c4f-b6d8-41e2-9378-e6df1e12045a"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:43 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.772) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "9609404c-14ad-4ef7-a386-21efa401d1f6"
+127.0.0.1 - - [29/Sep/2026:16:09:43 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.812) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "360a7bd8-cf55-4770-b785-99a15219eef2"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:45 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.986) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "89510d56-dd85-4b1b-9dbe-beec88605b8a"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:47 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.275) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "4b7b223d-f7af-4228-bb9f-de491f213d03"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:47 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.525) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "474bf35a-99b6-459e-a49a-297f3b0b3285"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:48 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.834) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "870de9de-6277-43e1-a748-d3bb3b65cde4"
+127.0.0.1 - - [29/Sep/2026:16:09:48 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (3.106) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e31af44b-449c-44aa-9280-17cc13c0556b"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:50 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.671) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "9d67ac9a-9727-4506-a4b1-451ba328c79b"
+127.0.0.1 - - [29/Sep/2026:16:09:50 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.781) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "29fe46df-738c-468a-8b34-4d451a400a3e"
+127.0.0.1 - - [29/Sep/2026:16:09:50 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.691) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e359c9e5-9f12-4561-a7ef-27b37d9efbfb"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:52 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (3.080) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "e28e8c67-f4fc-476c-b2ec-1ebccc8988de"
+127.0.0.1 - - [29/Sep/2026:16:09:52 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (3.088) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "8d14e97f-f037-4089-958d-89d433d6ca43"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:54 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.804) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "3c807b3f-761d-454a-9b08-33a9c6c63800"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:55 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.949) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "00efd85c-b3f4-4edf-acbf-1186f9193ea8"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:56 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.150) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "986b32aa-b9f1-408b-b5a1-dc8b46b41422"
+127.0.0.1 - - [29/Sep/2026:16:09:56 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.052) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "a7686ec1-7216-4a92-8c6c-5f4e4d392691"
+127.0.0.1 - - [29/Sep/2026:16:09:56 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.419) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "da8aded2-d2f5-46b1-bf00-b0c40f5e60ba"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:57 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (1.952) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "921674a1-0bbf-448d-98b0-3b00711fd4d6"
+127.0.0.1 - - [29/Sep/2026:16:09:58 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.128) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "cf69a0c8-d133-44da-a989-68f6d9140cc0"
+Traceback (most recent call last):
+Traceback (most recent call last):
+127.0.0.1 - - [29/Sep/2026:16:09:58 +0000] "POST /api/gateway/v1/login/ HTTP/1.1" 302 0 (2.173) "https://aap.lab.example/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36" "198.51.100.10,10.0.0.2" request-id: "1b653a5e-beda-449e-bc33-437d30f48e4f"
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):

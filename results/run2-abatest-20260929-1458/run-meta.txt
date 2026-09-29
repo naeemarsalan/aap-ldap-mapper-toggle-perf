@@ -1,0 +1,16 @@
+run=run2-abatest-20260929-1458
+started_utc=2026-09-29T14:58:41Z
+git_commit=3e99e371b011debd9013ec9dc5f9c6d9535fdf9d
+git_dirty_files=2
+sha256_loadtest=a23dbf3c3eece798727d8e5376e98a025fa6cbf62c536403c8e7ec1174b2de9e
+sha256_aap_setup=fc1b46106d5bd47a16dfb3e68799c4dac7b7cd7c3eead2416d1590d6be1c0400
+sha256_run_matrix=0c0849f5070501f02db1a50b1d02ad68c5e2b91267dd1983a8290719a1f9dea6
+cells=1500:off 1500:on 1500:off
+repeat=1
+ramp=10
+steady_iter=20 conc_iter=4 cold_iter=5 cold_per_cell=1
+pool_size=25
+single_users=perf-match-few,perf-match-many,perf-nomatch,perf-ctl-150
+cold_users=perf-cold-01 perf-cold-02 perf-cold-03
+think_min=0.5 think_max=2.0 think_seed=42
+on_phase_fail=abort

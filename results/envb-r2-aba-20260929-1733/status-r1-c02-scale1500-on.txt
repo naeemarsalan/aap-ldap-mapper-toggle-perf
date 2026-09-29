@@ -1,0 +1,5 @@
+authenticator id=1 order=1 enabled=True name='Local Database Authenticator' maps=0 {}
+authenticator id=2 order=1 enabled=True name='PERF - LDAP' maps=1501 {'allow/revoke=False': 1, 'team/revoke=True': 1500}
+users: 108
+teams: 674
+organizations: 2

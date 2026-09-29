@@ -1,0 +1,5 @@
+.env
+*.partial.jsonl
+results/current_run
+__pycache__/
+*.pyc
