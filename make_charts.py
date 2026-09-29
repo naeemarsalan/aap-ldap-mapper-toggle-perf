@@ -75,14 +75,31 @@ def seconds(ms):
     return f"{ms / 1000:.1f} s"
 
 
-def sequential(recs):
-    """(scale, toggle) -> median login POST ms of USER, steady state, first cell of each kind."""
+def clusters(times):
+    """Medians of the two groups when the values split in two, else the one median.
+
+    Logins served by gateway pods at different distances from the database form
+    two groups; one median over both would describe neither.
+    """
+    v = sorted(times)
+    gaps = [(b - a, i) for i, (a, b) in enumerate(zip(v, v[1:]), 1)]
+    gap, i = max(gaps) if gaps else (0, 0)
+    if gap > 0.25 * statistics.median(v) and min(i, len(v) - i) >= 3:
+        return [statistics.median(v[:i]), statistics.median(v[i:])]
+    return [statistics.median(v)]
+
+
+def sequential(recs, split=False):
+    """(scale, toggle) -> median login POST ms of USER, steady state, first cell of each kind.
+
+    With split, the value is the list from clusters().
+    """
     out = {}
     for key, (_, _, steady) in sorted(analyze.steady_state(recs).items()):
         _, _, scale, toggle, user = key
         times = analyze.post_times(steady)
         if user == USER and times and (scale, toggle) not in out:
-            out[(scale, toggle)] = statistics.median(times)
+            out[(scale, toggle)] = clusters(times) if split else statistics.median(times)
     return out
 
 
@@ -135,17 +152,27 @@ def toggle_cost(envs, t, path):
     axes = [axes] if len(envs) == 1 else list(axes)
     top = max(LIMIT_S + 1.5, max(v for _, _, recs, _ in envs for v in sequential(recs).values()) / 1000 + 1)
     for n, (ax, (label, sub, recs, _)) in enumerate(zip(axes, envs)):
-        data = sequential(recs)
+        data = sequential(recs, split=True)
         scales = sorted({s for s, _ in data})
         style(ax, t)
         limit_line(ax, t, scales[0], label=n == 0)
+        two = False
         for toggle, _ in SERIES:
             xs = [s for s in scales if (s, toggle) in data]
-            ys = [data[(s, toggle)] / 1000 for s in xs]
+            # the line follows the lower group; a second marker shows the upper one
+            ys = [data[(s, toggle)][0] / 1000 for s in xs]
             ax.plot(xs, ys, color=t[toggle], linewidth=2, solid_capstyle="round", solid_joinstyle="round", zorder=3)
-            ax.plot(xs, ys, linestyle="none", marker="o", markersize=8.5, markerfacecolor=t[toggle], markeredgecolor=t["surface"], markeredgewidth=2, zorder=4)
-            # direct label on the last point only
-            ax.annotate(seconds(data[(xs[-1], toggle)]), (xs[-1], ys[-1]), xytext=(9, 0), textcoords="offset points", color=t["ink"], fontsize=9.5, va="center")
+            for x in xs:
+                vals = [v / 1000 for v in data[(x, toggle)]]
+                if len(vals) > 1:
+                    two = True
+                    ax.plot([x, x], vals, color=t[toggle], linewidth=1, zorder=3)
+                ax.plot([x] * len(vals), vals, linestyle="none", marker="o", markersize=8.5, markerfacecolor=t[toggle], markeredgecolor=t["surface"], markeredgewidth=2, zorder=4)
+            # direct labels on the last point only
+            for v in data[(xs[-1], toggle)]:
+                ax.annotate(seconds(v), (xs[-1], v / 1000), xytext=(9, 0), textcoords="offset points", color=t["ink"], fontsize=9.5, va="center")
+        if two:
+            ax.text(0.99, 0.80, "two values: logins through the gateway pod in the\ndatabase's zone, and through the pod in another zone", transform=ax.transAxes, color=t["ink2"], fontsize=8.5, ha="right", va="top", linespacing=1.35)
         ax.set_xticks(scales)
         ax.set_xticklabels([f"{s:,}" for s in scales])
         ax.set_xlim(-90, max(scales) * 1.17)
@@ -199,7 +226,7 @@ def concurrency(envs, t, path, levels):
             bar(ax, x, h, width, t[k])
             ax.text(x, h + 0.2, seconds(s["p50"]), color=t["ink"], fontsize=9.5, ha="center", va="bottom", zorder=5)
         over = on["slow"][1] / on["timed"] if on["timed"] else 0
-        note = f"option on: {over:.0%} over 10 s,\n{on['fail'] / on['n']:.0%} failed"
+        note = f"option on: {over:.0%} over 10 s,\n{on['fail']} of {on['n']} failed"
         ax.text(i, -0.235, note, transform=ax.get_xaxis_transform(), color=t["ink2"], fontsize=8.5, ha="center", va="top", linespacing=1.35)
     ax.set_xticks(range(len(groups)))
     ax.set_xticklabels([g[0] for g in groups], color=t["ink"], fontsize=9.5, linespacing=1.4)

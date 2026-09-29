@@ -12,9 +12,10 @@ here was measured unless it says otherwise.
 2. **With the option on, a login is mostly the same two database lookups,
    repeated once per mapper.** At 1,500 mappers that is 3,000 extra
    statements. Nothing is written.
-3. **The cost is round trips, not load.** No server was busy. The database
-   ran at about 2.5% CPU and the gateway at half a core while logins took
-   seconds.
+3. **The cost is the number of statements, not the load.** About half of a
+   slow login is the gateway building and unpacking 3,000 queries, and half
+   is waiting for the answers. No server was short of capacity: the database
+   ran at about 2.5% CPU and the gateway at half a core.
 4. **So network distance to the database matters more than its size.** Half a
    millisecond more per statement added 1.7 s to every login.
 5. **Logins that pass 10 s are cut off.** That turns slow into failed, and it
@@ -58,11 +59,19 @@ The 3,003 extra ones are two lookups:
 | `SELECT` from `dab_rbac_roledefinition` | 1,501 | 1.3 s | 1.2 s |
 | `SELECT` from `dab_rbac_dabcontenttype` | 1,500 | 1.2 s | 1.1 s |
 
+- They come from `check_role_type()` in
+  `ansible_base/authentication/utils/authenticator_map.py`, which
+  `create_claims()` calls for every mapper that is not skipped. It fetches
+  the role by name, then the role's content type, and keeps nothing between
+  calls. Captured as stack traces during real logins.
+- With the option off, a mapper the user does not match is skipped before
+  that check. With it on, it becomes a deny and goes through the check like a
+  mapper that matched.
 - Every mapper in the test grants the same role, so these fetch **the same
   two rows 1,500 times each**.
 - **Nothing is written.** The number of `UPDATE` statements is 7 with the
   option off and 7 with it on. The user holds none of the permissions, so
-  there is nothing to remove; the lookups happen anyway.
+  the lookups are all there is.
 - The count is identical in both environments, so it is a property of the
   code, not of the installation.
 - The gateway's own time rises with it (0.4 s to 3.5 s in Environment A),
@@ -90,7 +99,7 @@ zone took 2.4 s; logins served by the other took 4.1 s. In the browser data,
 45 of 80 logins cluster at 2.4 s and 35 at 4.3 s. A highly available layout,
 with pods spread across zones, is what makes half the logins slower.
 
-## What does not matter
+## What does not matter much
 
 | Factor | Evidence |
 |---|---|
@@ -166,6 +175,9 @@ Hosts over the whole run (five-minute periods):
 | Host | Size | CPU, mean | CPU, busiest period | CPU, highest instant |
 |---|---|---|---|---|
 | Directory server | 16 vCPU | 1.9% | 5.4% | 11.4% |
+
+During the one-at-a-time logins at 1,500 mappers with the option on, the
+directory server was at 0.5–0.6% and the load generator at about 2%.
 | Load generator | 16 vCPU | 10.3% | 33.0% | 63.1% |
 
 Memory of these two hosts was not recorded for this run; a recorder has been
@@ -173,9 +185,10 @@ running on both since.
 
 ### Reading the tables
 
-- **One login at a time never uses more than about half a core of gateway**,
-  option off or on, in either environment. A 7-second login that is mostly
-  waiting looks the same to the CPU as a 1-second one.
+- **One login at a time keeps the gateway at about half a core**, option off
+  or on, in either environment. That is a rate. Per login, the gateway uses
+  2 to 3 times more CPU with the option on: 2.3 against 6.2 CPU-seconds in
+  Environment A, 0.8–1.5 against 2.2–2.5 in Environment B.
 - **Gateway CPU rises only with concurrency**, and most with the option on:
   2.0 cores in Environment A and 2.1–4.4 in Environment B at 1,500 mappers.
 - **Memory does not move with the option.** It is flat in Environment A. In
@@ -196,8 +209,7 @@ running on both since.
 | Directory server | about 130 ms of CPU per bind, 3 binds per login | 4 vCPU: 15 binds/s, so 5 logins/s whatever the gateway; 16 vCPU: 60 binds/s |
 | Time a login holds a worker | 0.7–1.5 s off, 2.4–7 s on | With the option on, each worker serves 3–5 times fewer logins |
 
-Because a slow login is mostly waiting, **gateway CPU is a poor sign of
-trouble**. Under a load that raised response time from 0.6 s to 7 s, the
+**Gateway CPU is a poor sign of trouble.** Under a load that raised response time from 0.6 s to 7 s, the
 gateway pods stayed at 9–27% of their CPU request. The number of requests in
 flight followed the load from the first sample.
 

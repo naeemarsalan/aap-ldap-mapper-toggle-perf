@@ -11,8 +11,9 @@ Behaviour in `ansible_base.authentication.utils.claims.create_claims()`:
 
 - **off** — a mapper whose trigger the user does not match is skipped.
 - **on** — a non-matching mapper becomes an explicit deny, which is then
-  reconciled as a permission removal. Every non-matching mapper produces work
-  on every login.
+  handled like a mapper that matched: its role is validated against the
+  database before anything else happens. Every non-matching mapper produces
+  that work on every login.
 
 This is a property of the product code and applies to every environment.
 

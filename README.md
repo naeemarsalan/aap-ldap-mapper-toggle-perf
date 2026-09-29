@@ -10,17 +10,17 @@ and tuning tests still to come.
 ## The finding
 
 > With 1,500 mappers, turning the option on makes **every login 3 to 5 times
-> slower**, because the gateway repeats the same two database lookups once
-> per mapper: 3,000 extra statements per login. Better hardware shrinks the
+> slower**, because the gateway checks each mapper's role against the
+> database, one mapper at a time: 3,000 extra statements per login. Better hardware shrinks the
 > delay but does not remove it. Logins that pass 10 seconds are cut off, which
 > locks out new users who are in many groups.
 
 | | Environment A: lab | Environment B: AWS |
 |---|---|---|
 | Login, option off | 1.4 s | 0.7 s |
-| Login, option on | **7.1 s** | **2.4 s** or **4.1 s**, by gateway pod |
+| Login, option on | **7.1 s** | **2.4 s** or **4.2 s**, by gateway pod |
 | Database statements per login, off → on | 46 → 3,049 | 46 → 3,049 |
-| 10 logins at once, option on | 10.6 s, 10% failed | 3.0 s, none failed |
+| 10 logins at once, option on | 10.6–12.1 s, 10–16% failed | 2.9–3.0 s, none failed |
 | New user in 150 groups, option on | Locked out after 5 attempts | In on the 3rd attempt |
 
 1,500 mappers, one login at a time unless stated, a user who matches none of
@@ -30,16 +30,16 @@ the mappers.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/charts/toggle-cost-dark.svg">
-  <img alt="Median login time against the number of LDAP mappers, with the option off and on, for both environments. With the option on at 1,500 mappers: 7.1 seconds in Environment A and 2.4 seconds in Environment B. With it off: 1.4 and 0.7 seconds." src="docs/charts/toggle-cost-light.svg">
+  <img alt="Median login time against the number of LDAP mappers, with the option off and on, for both environments. With the option on at 1,500 mappers: 7.1 seconds in Environment A; in Environment B 2.4 seconds through the gateway pod in the database's zone and 4.2 seconds through the pod in another zone. With it off: 1.4 and 0.7 seconds." src="docs/charts/toggle-cost-light.svg">
 </picture>
 
 - **Option off:** mapper count is nearly free. 1,500 mappers cost about 0.1 s
   more than 1.
 - **Option on:** each mapper the user does *not* match adds 1 to 5 ms.
 - **It is the option, not drift.** Measured off → on → off, login time
-  returned to where it started, within 5%.
+  returned to where it started, within 6%.
 
-## 2. The time goes to repeated database lookups
+## 2. The time goes to the same two lookups, repeated per mapper
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/charts/time-split-dark.svg">
@@ -56,11 +56,14 @@ a real login.
 
 - All 1,500 mappers grant the same role, so these fetch **the same two rows
   1,500 times each**.
-- **Nothing is written.** The user holds none of those permissions, so there
-  is nothing to remove. The lookups happen anyway.
+- They come from a check that validates each mapper's role before it is
+  applied. With the option off, mappers the user does not match never reach
+  that check. With it on, all of them do.
+- **Nothing is written.** The number of updates is 7 with the option off and
+  7 with it on.
 - **Option off, a login is mostly LDAP:** three binds, about 60% of the time.
 
-## 3. No server is busy: the cost is round trips
+## 3. Half computing, half waiting, and no server is short of capacity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/charts/gateway-cpu-dark.svg">
@@ -71,17 +74,23 @@ During the slowest one-at-a-time logins, 1,500 mappers with the option on:
 
 | | Environment A | Environment B |
 |---|---|---|
-| Gateway CPU | 0.65 cores | 0.45 cores |
+| Gateway CPU in use | 0.65 cores | 0.45 cores |
+| Gateway CPU per login, option off → on | 2.3 → 6.2 CPU-seconds | 0.8–1.5 → 2.2–2.5 CPU-seconds |
 | Gateway memory | 1.4 GiB | 2.1 GiB |
-| Database CPU | not recorded | 2.5% of 8 vCPU |
-| Directory server CPU | not recorded | 1.9% of 16 vCPU |
+| Database CPU | not recorded | 2.4% of 8 vCPU |
+| Directory server CPU | not recorded | 0.6% of 16 vCPU |
 
-- A 7-second login uses the same half a core as a 1-second login. It is
-  waiting, not computing.
+- **About half of a slow login is the gateway computing, half is waiting.**
+  Building 3,000 queries and unpacking their results is Python work: the
+  gateway spends 2 to 3 times more CPU on a login with the option on.
+- **Nothing is short of capacity.** One login at a time keeps the gateway at
+  about half a core whether logins take 1 s or 7 s, and the database and
+  directory servers are close to idle.
 - **Distance to the database matters more than its size.** In Environment B
   the gateway pod in the database's zone needs 0.23 ms per statement and the
   pod in another zone 0.77 ms. Times 3,049 statements, that is 2.4 s against
-  4.1 s for the same login.
+  4.1 s for the same login, measured in the pods; browsers saw 2.4 s and
+  4.2–4.3 s.
 - **CPU is a poor warning sign.** While logins slowed from 0.6 s to 7 s under
   load, gateway CPU stayed at 9–27% of its request.
 
@@ -139,6 +148,7 @@ Results are only meaningful together with the infrastructure they ran on.
 | Solid | Less solid |
 |---|---|
 | Statement counts: exact, identical in both environments | One run per configuration, except 1,500 mappers |
+| Where the lookups come from: captured as stack traces | The two environments differ in more than hardware: gateway pods, user pool, LDAP limits |
 | The slowdown: reproduced in 4 runs, drift-checked in both environments | 50 browsers at once could not be measured: the load generator was the limit |
 | The 10 s cut-off: seen in gateway logs and traced to its setting | Environment A database and directory hosts were not monitored |
 | Browser and in-gateway measurements agree within a few percent | Time in "gateway code" was not profiled further |
