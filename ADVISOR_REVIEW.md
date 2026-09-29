@@ -66,7 +66,7 @@ Ranked roughly by how much they threaten the conclusions.
 8. **Environment ceilings distort the headline finding.** 1 gateway pod, 10 s
    uWSGI harakiri, external DB. Latency above 10 s becomes a 503, so
    "N failures" is an environment property, not an AAP property. The
-   customer-relevant number is the latency curve (9.8–10.1 s POSTs); the 503s
+   relevant number is the latency curve (9.8–10.1 s POSTs); the 503s
    are a timeout interaction. Keep both, but don't let the failure count
    become the story.
 9. **Coverage gaps vs. the plan.** PLAN says 30 steady iterations; the script

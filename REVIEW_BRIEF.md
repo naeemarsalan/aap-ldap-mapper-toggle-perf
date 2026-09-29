@@ -15,7 +15,7 @@ interim findings. Be critical. Disagreement is more useful than agreement.
 
 ## Background
 
-Customer question: what is the performance impact of the "Block non-matching
+Question: what is the performance impact of the "Block non-matching
 users" toggle on LDAP authenticator mappers in Ansible Automation Platform 2.6,
 at roughly 1,500 LDAP groups / mappers?
 

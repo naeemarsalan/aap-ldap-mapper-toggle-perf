@@ -9,7 +9,7 @@ Cluster: single-node OpenShift
 ## Goal
 
 Quantify the login-time and gateway resource cost of the "block non-matching
-users" toggle on LDAP authenticator mappers at customer scale (~1,500 LDAP
+users" toggle on LDAP authenticator mappers at a scale of about 1,500 LDAP
 groups / mappers), toggle OFF vs ON.
 
 ## Baseline state (2026-09-29, before any changes)
