@@ -92,7 +92,7 @@ During the slowest one-at-a-time logins, 1,500 mappers with the option on:
   4.1 s for the same login, measured in the pods; browsers saw 2.4 s and
   4.2–4.3 s.
 - **CPU is a poor warning sign.** While logins slowed from 0.6 s to 7 s under
-  load, gateway CPU stayed at 9–27% of its request.
+  load, gateway CPU stayed at 5–27% of its request.
 
 CPU and memory for every test and component:
 [what affects login time](docs/what-affects-login-time.md#cpu-and-memory-in-every-test).

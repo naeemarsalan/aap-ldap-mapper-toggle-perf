@@ -12,7 +12,7 @@ build, same test, same load-generator software as Environment A.
 | AAP | 2.6, operator `aap-operator.v2.6.0-0.1789677985` (same build as Environment A), controller 4.7.17, gateway 2.6.20260923, django-ansible-base 2.7.0 |
 | Gateway | **2 pods**, fixed. `api` container: request 2 CPU / 2 Gi, memory limit 4 Gi, no CPU limit |
 | Gateway app server | uWSGI, **5 worker processes** per pod (not configurable), **`harakiri = 10`**, nginx `uwsgi_read_timeout 15s`: operator defaults, identical to Environment A |
-| Gateway database | Amazon RDS for PostgreSQL 15.18, db.m6i.2xlarge, Multi-AZ, gp3 200 GB. `max_connections` 3,452, `shared_buffers` 7.7 GB. 1.0 ms per query from the gateway, 13 ms per new connection |
+| Gateway database | Amazon RDS for PostgreSQL 15.18, db.m6i.2xlarge, Multi-AZ, gp3 200 GB. `max_connections` 3,452, `shared_buffers` 7.7 GB. 0.2 to 0.8 ms per statement from the gateway, depending on the gateway pod's zone; 13 ms per new connection |
 | Other components | Controller, EDA and hub enabled; hub on S3. Redis in cluster mode, 6 pods |
 | LDAP | FreeIPA 4.12.2 (same version as Environment A) on c6i.4xlarge (16 vCPU), same VPC, plain LDAP. 1,656 groups. Search limits raised to 5,000 entries / 10 s (Environment A: 100 / 2 s) |
 | Load generator | c6i.4xlarge (16 vCPU / 32 GB) in the same VPC, Playwright 1.55 Chromium 140 in podman: same image definition as Environment A |
@@ -170,7 +170,7 @@ login, the landing page took 13–17 s to appear for these users, against about
    nothing (control user 746 ms against 716 ms for the 5-group user).
 5. **The directory server limited login throughput.** On 4 vCPU, FreeIPA
    served 15 binds per second at 100% CPU and logins were capped at 5.2 per
-   second whatever the number of gateway pods, with the gateway at 9–27% of
+   second whatever the number of gateway pods, with the gateway at 5–27% of
    its CPU request. One bind costs about 130 ms, almost all password hashing.
    On 16 vCPU it serves 60 binds per second. The main run above was made after
    that change.
@@ -184,7 +184,7 @@ Tested on this environment.
 | Manual scale of the gateway from 2 to 3 | Reverted by the operator after 35 s |
 | HorizontalPodAutoscaler on the gateway | Flaps: 22 pods created and destroyed in 37 minutes |
 | Replica count through `spec.api.replicas` | Holds. 77 s from the change to 4 pods Ready |
-| CPU as a scaling signal | Did not move: 9–27% of request while logins slowed from 0.6 s to 7 s |
+| CPU as a scaling signal | Did not move: 5–27% of request while logins slowed from 0.6 s to 7 s |
 | Requests in flight on the route | Tracked the load from the first sample |
 
 ## Limitations — Environment B

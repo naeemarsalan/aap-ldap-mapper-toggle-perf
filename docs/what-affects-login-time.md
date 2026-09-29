@@ -210,7 +210,7 @@ running on both since.
 | Time a login holds a worker | 0.7–1.5 s off, 2.4–7 s on | With the option on, each worker serves 3–5 times fewer logins |
 
 **Gateway CPU is a poor sign of trouble.** Under a load that raised response time from 0.6 s to 7 s, the
-gateway pods stayed at 9–27% of their CPU request. The number of requests in
+gateway pods stayed at 5–27% of their CPU request. The number of requests in
 flight followed the load from the first sample.
 
 New users are a special case. On first login the gateway creates teams and
