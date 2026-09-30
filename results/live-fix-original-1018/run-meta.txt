@@ -1,0 +1,16 @@
+run=live-fix-original-1018
+started_utc=2026-09-30T10:18:19Z
+git_commit=0e33f0c3021399881d0368da71a12718f4d7b4b1
+git_dirty_files=0
+sha256_loadtest=80effbaf7c9abfa79452cb2b90d2cb8dd9e27e9a6fbdd14fd79efc0730594f27
+sha256_aap_setup=fc1b46106d5bd47a16dfb3e68799c4dac7b7cd7c3eead2416d1590d6be1c0400
+sha256_run_matrix=8b23f772a28e4712b4d87e81bd16c74a6c4807ee22dd53972805fca4c968e9a6
+cells=1500:on
+repeat=1
+ramp=10 25
+steady_iter=20 conc_iter=2 cold_iter=5 cold_per_cell=1
+pool_size=100
+single_users=perf-match-few,perf-match-many,perf-nomatch,perf-ctl-150
+cold_users=
+think_min=0.5 think_max=2.0 think_seed=42
+on_phase_fail=abort

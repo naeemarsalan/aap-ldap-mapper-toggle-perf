@@ -4,8 +4,8 @@ A performance report on one option of the LDAP authenticator mappers in
 Ansible Automation Platform 2.6, measured with real browser logins in two
 environments.
 
-**Status:** Environment A complete. Environment B: main runs complete, scaling
-and tuning tests still to come.
+**Status:** Environment A complete. Environment B: main runs complete and the
+cause fixed and verified; scaling and tuning tests not run.
 
 ## The finding
 
@@ -130,6 +130,29 @@ CPU and memory for every test and component:
 The operator rewrites the replica count on every run and has no autoscaling
 setting. A workaround with KEDA is prototyped; it has not been tested under
 load.
+
+## 6. A small code change removes the cost
+
+The repeated lookups come from `check_role_type()` in
+`ansible_base/authentication/utils/authenticator_map.py`, which
+`create_claims()` calls once per mapper and which reads the role and its
+content type every time. A change that reads each role once per login was
+built into a gateway image and compared with the original image on
+Environment B, same day, 1,500 mappers, option on:
+
+| | Original | With the change |
+|---|---|---|
+| Statements per login | 3,049 | 50 |
+| One login at a time | 4.9 s | **0.82 s** |
+| 10 browsers at once | 2.9 s, 48% over 5 s | **0.96 s, none over 5 s** |
+| 25 browsers at once | 4.7 s, 48% over 5 s | **1.2 s, none over 5 s** |
+| The same 1,500 mappers as organization mappers | 3,049 statements, 2.3 s | 48–51 statements, 0.8 s |
+
+The result of the mapper evaluation was identical with and without the
+change. The change is proposed upstream as
+[ansible/django-ansible-base#1167](https://github.com/ansible/django-ansible-base/pull/1167);
+its test suite passes with it, and new tests fail without it. Raw data:
+`results/live-fix-*` and `results/probe/environment-b-1500-live-*`.
 
 ## The two environments
 
