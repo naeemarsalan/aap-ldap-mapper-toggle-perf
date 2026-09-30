@@ -148,6 +148,13 @@ Environment B, same day, 1,500 mappers, option on:
 | 25 browsers at once | 4.7 s, 48% over 5 s | **1.2 s, none over 5 s** |
 | The same 1,500 mappers as organization mappers | 3,049 statements, 2.3 s | 48–51 statements, 0.8 s |
 
+The lookup was introduced by
+[ansible/django-ansible-base#768](https://github.com/ansible/django-ansible-base/pull/768)
+in July 2025 to validate one mapper when it is saved; from the login path it
+runs once per mapper. An earlier speed fix for the same function,
+[#1033](https://github.com/ansible/django-ansible-base/pull/1033) in July
+2026, changed how triggers are evaluated and left the lookup in place.
+
 The result of the mapper evaluation was identical with and without the
 change. The change is proposed upstream as
 [ansible/django-ansible-base#1167](https://github.com/ansible/django-ansible-base/pull/1167);
